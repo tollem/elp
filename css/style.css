@@ -1,0 +1,10 @@
+/* css/style.css */
+
+.container {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 15px;
+    top: 15px;
+    -webkit-box-shadow: 0 2px 2px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,0.2);
+}

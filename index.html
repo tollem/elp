@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!-- Samuel Mellot Copyright November 2015-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>angular-formly</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="formlyApp" ng-controller="MainController as vm">
+
+
+<div class="container col-md-4 col-md-offset-4">
+    <form ng-submit="vm.onSubmit()" name="vm.form" novalidate="">
+        <h1>Etat des lieux a distance</h1>
+        <formly-form model="vm.inventory" fields="vm.inventoryFields" form="vm.inventoryForm">
+            <button type="submit" class="btn btn-primary submit-button" ng-disabled="vm.form.$invalid">Submit</button>
+            <a id="downloadAnchorElem" style="display:none"></a>
+           <!-- <button type="submit" class="btn btn-primary" ng-disabled="vm.inventoryForm.$invalid">Terminer Saisie</button> -->
+
+        </formly-form>
+    </form>
+</div>
+
+
+</body>
+
+<!-- Application Dependencies -->
+<script src="node_modules/api-check/dist/api-check.js"></script>
+ <script src="node_modules/angular/angular.js"></script>
+<!--<script src="https //ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>-->
+<script src="node_modules/angular-formly/dist/formly.js"></script>
+<script src="node_modules/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.js"></script>
+<script src="node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<!-- Application Scripts -->
+<script src="app.js"></script>
+<script src="scripts/MainController.js"></script>
+<script src="scripts/inventoryType.js"></script>
+<script src="scripts/floorNumber.js"></script>
+<script src="scripts/numberOfRoom.js"></script>
+<script src="scripts/dependanceTypes.js"></script>
+<script src="scripts/stateOfStuff.js"></script>
+<script src="scripts/roomTypes.js"></script>
+<script src="scripts/Savedatas.js"></script>
+
+
+
+
+
+</html>

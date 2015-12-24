@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="basic.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-app="app">
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template" ng-controller="ExampleCtrl">
+        <h1>Schema Form Example</h1>
+        {
+        "form_id": 1,
+        "form_name": "EL-REGIE",
+        "form_fields": [
+        {
+        "field_id": 1,
+        "field_title": "Email Collaborateur",
+        "field_type": "email",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 3,
+        "field_title": "N°Objet",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 4,
+        "field_title": "Groupe",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 5,
+        "field_title": "Initiales Ass Tech",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 6,
+        "field_title": "Type Etat des Lieux",
+        "field_type": "dropdown",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false,
+        "field_options": [
+        {
+        "option_id": 1,
+        "option_title": "ELE",
+        "option_value": 1
+        },
+        {
+        "option_id": 2,
+        "option_title": "ELS",
+        "option_value": 2
+        },
+        {
+        "option_id": 3,
+        "option_title": "ELE-ELS",
+        "option_value": 3
+        }
+        ]
+        },
+        {
+        "field_id": 7,
+        "field_title": "Adresse Immeuble",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 9,
+        "field_title": "Etage de l'appartement",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 10,
+        "field_title": "Nombre de Pièces",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 11,
+        "field_title": "Nom Locataire Entrant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 12,
+        "field_title": "Prénom Locataire entrant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 13,
+        "field_title": "Mail Locataire Entrant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 14,
+        "field_title": "Téléphone Locataire entrant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 15,
+        "field_title": "Date d'entrée",
+        "field_type": "date",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 16,
+        "field_title": "Nom Locataire sortant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 17,
+        "field_title": "Prénom Locataire sortant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 18,
+        "field_title": "Mail locataire sortant",
+        "field_type": "email",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 19,
+        "field_title": "Téléphone Locataire sortant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 20,
+        "field_title": "Date de sortie",
+        "field_type": "date",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        },
+        {
+        "field_id": 21,
+        "field_title": "Adresse Locataire sortant",
+        "field_type": "textfield",
+        "field_value": "",
+        "field_required": true,
+        "field_disabled": false
+        }
+        ],
+        "submitted": false
+        }
+        <form name="example" role="form">
+          <schema-form-fields fields="fields" schema="schema" model="model"></schema-form-fields>
+        </form>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="vendor/bower/angular/angular.js"></script>
+    <script src="generated/js/app.js"></script>
+    <script src="example.js"></script>
+  </body>
+</html>
