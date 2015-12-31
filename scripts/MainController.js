@@ -86,14 +86,14 @@
             valEmailForOcc = vm.inventory.Email_formerOccupant;
             valTelForOcc = vm.inventory.telephoneFormerOccupant;
             valExDatForOcc = vm.inventory.exitDateFormerOccupant;
-            valAdrForOcc = vm.inventory.adressFormerOccupant
+            valAdrForOcc = vm.inventory.adressFormerOccupant;
             valTypeOfRoomPi1 = vm.inventory.TypeofRoomPi1;
 
             //======================================================
             //                 Fin  Enregistrement Variables
             //======================================================
 
-            txtjsondatas = "'{\"Datas\" : ['{\"Email Collaborateur\":"+valEmailCol+"}]}'";
+                txtjsondatas = "'{\"Datas\" : ['{\"Email Collaborateur\":"+valEmailCol+"}]}'";
 
             //alert(txtjsondatas);
 
